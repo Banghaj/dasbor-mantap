@@ -191,9 +191,9 @@ iframe{
 
     <div class="header-info">
         <div class="badge">📡 Portal Dipantau : 5</div>
-        <div class="badge">🟢 Online : 3</div>
-        <div class="badge">🔴 Offline : 2</div>
-        <div class="badge">🔄 Refresh : 180 Detik</div>
+        <div class="badge">🟢 Online : 4</div>
+        <div class="badge">🔴 Offline : 1</div>
+        <div class="badge">🔄 Refresh : 300 Detik</div>
         <div class="badge" id="clock">🕒</div>
     </div>
 </div>
@@ -290,7 +290,7 @@ iframe{
         <div class="card">
             <div class="card-header">
                 <div class="site-name">
-                    🏫 SPMB Kota Sukabumi
+                    🏫 SPMB Kota Sukabumi (DEMO)
                 </div>
 
                 <div class="right-info">
@@ -309,7 +309,8 @@ iframe{
 
             <div class="iframe-container">
                 <iframe
-                    src="https://spmb.sukabumikota.go.id/">
+                    src="https://spmb-sukabumi.demo.or.id/">
+                    <!-- src="https://spmb.sukabumikota.go.id/"> -->
                 </iframe>
             </div>
         </div>
@@ -323,8 +324,8 @@ iframe{
 
                 <div class="right-info">
                     <div class="status">
-                        <span class="off"></span>
-                        OFFLINE
+                        <span class="dot"></span>
+                        ONLINE
                     </div>
 
                     <a class="open-btn"
@@ -413,7 +414,7 @@ setInterval(updateClock,1000);
 /* Auto Refresh Dashboard */
 setTimeout(function(){
     location.reload();
-},180000);
+},300000);
 
 </script>
 
